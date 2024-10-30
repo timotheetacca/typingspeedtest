@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" width="200px" src="https://github.com/user-attachments/assets/c70e7249-4839-4806-9a23-a1e77c83af35">
+    <img alt="Logo" width="300px" src="https://github.com/user-attachments/assets/c70e7249-4839-4806-9a23-a1e77c83af35">
 
 </h1>
 
@@ -12,6 +12,8 @@
 typingspeedtest is a python project designed to create a typing speed simulator.
 
 This project uses the tkinter graphical interface, so make sure you have tkinter and pyton installed before continuing. 
+
+I aim to add a english version of this project (and fix bugs that mess with the information at the end)
 
 
 ## Download
