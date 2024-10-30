@@ -203,6 +203,13 @@ class TypingSpeedTest:
         self.writing = False  # Stop writing
         words_typed = len(self.textWritten.cget('text').split())  # Count the words typed
 
+        # Calculate typing speed in words per minute
+        time_in_minutes = self.timePassed / 60  # Convert seconds to minutes
+        if time_in_minutes > 0 :
+            typing_speed = words_typed / time_in_minutes
+        else :
+            typing_speed = 0  # Avoid division by zero
+
         # Remove text from the screen
         self.timerText.destroy()
         self.currentChar.destroy()
@@ -210,7 +217,7 @@ class TypingSpeedTest:
         self.textWritten.destroy()
 
         # Show the results to the user
-        self.result_label = tk.Label(self.master, text=f'Words per Minute: {words_typed}', fg='grey', bg='#f0f0f0')
+        self.result_label = tk.Label(self.master, text=f'Words per Minute: {typing_speed:.0f}', fg='grey', bg='#f0f0f0')
         self.result_label.place(relx=0.5, rely=0.4, anchor='center')  # Center the result label
 
         # Create a button to try again
