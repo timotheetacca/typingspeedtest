@@ -13,7 +13,7 @@
 
 This project uses the tkinter graphical interface, so **make sure you have tkinter and pyton installed before continuing.**
 
-####### *I aim to add an english version of this project (and fix bugs that mess with the information at the end)*
+####### I aim to add an english version of this project (and fix bugs that mess with the information at the end)
 
 
 ## Download
