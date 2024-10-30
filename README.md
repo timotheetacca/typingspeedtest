@@ -9,11 +9,11 @@
 
 ## About
 
-typingspeedtest is a python project designed to create a typing speed simulator.
+*typingspeedtest* is a python project designed to create a typing speed simulator.
 
-This project uses the tkinter graphical interface, so make sure you have tkinter and pyton installed before continuing. 
+This project uses the tkinter graphical interface, so **make sure you have tkinter and pyton installed before continuing.**
 
-I aim to add a english version of this project (and fix bugs that mess with the information at the end)
+####### *I aim to add an english version of this project (and fix bugs that mess with the information at the end)*
 
 
 ## Download
