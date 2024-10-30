@@ -206,7 +206,7 @@ class TypingSpeedTest:
         # Calculate typing speed in words per minute
         time_in_minutes = self.timePassed / 60  # Convert seconds to minutes
         if time_in_minutes > 0 :
-            typing_speed = words_typed / time_in_minutes
+            typing_speed = (len(words_typed)/5) / time_in_minutes
         else :
             typing_speed = 0  # Avoid division by zero
 
